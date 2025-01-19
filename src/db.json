@@ -1,0 +1,29 @@
+{
+  "samochody": [
+    {
+      "id": "samochody_3",
+      "marka": "BMW",
+      "model": "Seria 4",
+      "rok": 2021,
+      "przebieg": 35000,
+      "cena": 155000
+    },
+    {
+      "id": "samochody_4",
+      "marka": "Mercedes-Benz",
+      "model": "Klasa Cf",
+      "rok": 2020,
+      "przebieg": 50000,
+      "cena": 145000
+    },
+    {
+      "id": "samochody_1737051358290",
+      "marka": "jojio",
+      "model": "hhi",
+      "rok": 4535,
+      "przebieg": 4535,
+      "cena": 4777
+    }
+  ],
+  "uzytkownicy": []
+}

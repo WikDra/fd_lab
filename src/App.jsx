@@ -1,13 +1,12 @@
-// App.jsx
-import React from 'react';
-import TodoApp from './TodoApp';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import DataDisplayApp from "./DataDisplayApp";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const App = () => {
-  return (
-    <div className="App">
-      <TodoApp />
-    </div>
-  );
-};
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <DataDisplayApp />
+  </React.StrictMode>
+);
 
-export default App;
+//npx json-server --watch db.json --port 3001
